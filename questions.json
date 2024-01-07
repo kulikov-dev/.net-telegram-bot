@@ -1,0 +1,64 @@
+{
+  ".net": [
+    {
+      "id": 1,
+      "text": "What kind of type is a string?",
+      "isChoosable": false,
+      "answer": "Reference."
+    },
+	{
+      "id": 2,
+      "text": "What keyword calls IDisposable.Dispose?",
+      "isChoosable": false,
+      "answer": "Using."
+    },
+	{
+      "id": 3,
+      "text": "What can be a root reference?",
+      "isChoosable": false,
+      "answer": "Any object referenced by a GC root will automatically survive the next garbage collection. There are four main types of root: local variable in a method that is currently running, static variables, resources passed through interop and if an object has a finalizer."
+    },
+	{
+      "id": 4,
+      "text": "What is the difference between event and delegate?",
+      "isChoosable": false,
+      "answer": "The main difference between it - that in event only publisher can trigger an event, sorry for tautology. And also subscriber can’t subscibe or unsubscribe other subscribers, only himself."
+    }
+  ],
+  "patterns": [
+    {
+      "id": 1,
+      "text": "What is SOLID?",
+      "isChoosable": false,
+      "answer": "It is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable."
+    },
+	{
+      "id": 2,
+      "text": "Which group of design patterns does not exist?",
+      "isChoosable": true,
+      "options": [
+        { "id": 1, "text": "Creational", "isCorrect": false },
+        { "id": 2, "text": "Structural", "isCorrect": false },
+        { "id": 3, "text": "Disposable", "isCorrect": true },
+        { "id": 4, "text": "Behavioral", "isCorrect": false }
+      ]
+    },
+	{
+      "id": 3,
+      "text": "Which technique of dependency injection does not exist?",
+      "isChoosable": true,
+      "options": [
+        { "id": 1, "text": "Constructor injection", "isCorrect": false },
+        { "id": 2, "text": "Getter injection", "isCorrect": true },
+        { "id": 3, "text": "Setter injection", "isCorrect": false },
+        { "id": 4, "text": "Method injection", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "What is CQRS?",
+      "isChoosable": false,
+      "answer": "It is a design pattern that divides operations into two categories: commands and queries."
+    },
+  ]
+}
