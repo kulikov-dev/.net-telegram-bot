@@ -59,6 +59,39 @@
       "text": "What is CQRS?",
       "isChoosable": false,
       "answer": "It is a design pattern that divides operations into two categories: commands and queries."
+    }
+  ],
+   "dbms": [
+       {
+      "id": 1,
+      "text": "What database acceleration options do you know?",
+      "isChoosable": false,
+      "answer": "SQL Tuning through profiling and benchmarks, indexing, sharding, vertical scaling."
     },
-  ]
+   	{
+      "id": 2,
+      "text": "What DBMS implements consistency and partition tolerance?",
+      "isChoosable": true,
+      "options": [
+        { "id": 1, "text": "Redis", "isCorrect": true },
+        { "id": 2, "text": "MySQL", "isCorrect": false },
+        { "id": 3, "text": "Cassandra", "isCorrect": false },
+        { "id": 4, "text": "Postgres", "isCorrect": false }
+      ]
+    }
+   ],
+   "agile": [
+          {
+      "id": 1,
+      "text": "Explain Agile in brief?",
+      "isChoosable": false,
+      "answer": "Agile is a popular set of methods and practices that majorly focuses on interactive development. Thanks to self-organizing collaborations between cross-functional teams, the requirements from their customers and potential solutions are obtained."
+    },
+	{
+      "id": 2,
+      "text": "What Is Kanban?",
+      "isChoosable": false,
+      "answer": "Kanban is a visual system that helps the management of work as it progresses through the process. It visualizes and provides visibility into the process, workflows, and the work that’s passing through the process."
+    }
+   ]
 }

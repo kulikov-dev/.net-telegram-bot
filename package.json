@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "grammy": "^1.20.2",
+    "grammy": "^1.20.3",
     "nodemon": "^3.0.2",
     "random-js": "^2.1.0"
   }
